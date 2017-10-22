@@ -1,0 +1,21 @@
+{
+    "name": "georgizk/image-library",
+    "description": "An image library.",
+    "authors": [
+        {
+            "name": "Georgi Kostadinov",
+            "email": "georgizk@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.5",
+        "robmorgan/phinx": "^0.6.4",
+        "ext-zlib": "*",
+        "ext-date": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ImageLibrary": "src/"
+        }
+    }
+}
