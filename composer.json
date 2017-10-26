@@ -11,7 +11,8 @@
         "slim/slim": "^3.5",
         "robmorgan/phinx": "^0.6.4",
         "ext-zlib": "*",
-        "ext-date": "*"
+        "ext-date": "*",
+        "aws/aws-sdk-php": "*"
     },
     "autoload": {
         "psr-0": {
